@@ -1,9 +1,7 @@
 import 'dart:convert';
 
 import 'package:barberhub_app/config/flavor_config.dart';
-import 'package:barberhub_app/core/constants/config.dart';
 import 'package:barberhub_app/data/model/get_barber_shop_response.dart';
-import 'package:barberhub_app/data/service/lib/network_constans.dart';
 import 'package:dartz/dartz.dart';
 import 'package:http/http.dart' as http;
 
