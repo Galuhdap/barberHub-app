@@ -1,4 +1,7 @@
 <div align="center">
+    <div >
+        <img height="300px" src="https://firebasestorage.googleapis.com/v0/b/barber-hub-e5e9c.firebasestorage.app/o/Preview%202.png?alt=media&token=899d3ce7-9785-4270-8165-e734722b1567" alt=""/>
+    </div>
     <div>
             <h3><b>BARBER HUB (GOBER)</b></h3>
             <p><i>Boking barbershop</i></p>
@@ -15,14 +18,19 @@
 **Installation :**
 
 1. Clone the repository
+
 ```bash
 $ git clone https://github.com/Galuhdap/barberHub-app
 ```
+
 2. Navigate to project directory
+
 ```bash
 $ cd barberHub-app
 ```
+
 3. Install Dependencies
+
 ```bash
 $ flutter pub get
 ```
@@ -36,7 +44,6 @@ $ flutter pub get
 
 - when you add image static or icon just run
   - dart run build_runner build
-
 
 **Launch Settings**
 
@@ -68,7 +75,6 @@ $ flutter pub get
             }
         ]
         }
-
 
 2.  **Android Studio**
 
