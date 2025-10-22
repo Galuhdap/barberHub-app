@@ -1,7 +1,9 @@
 import 'dart:convert';
 
+import 'package:barberhub_app/config/flavor_config.dart';
 import 'package:barberhub_app/core/constants/config.dart';
 import 'package:barberhub_app/data/model/get_barber_shop_response.dart';
+import 'package:barberhub_app/data/service/lib/network_constans.dart';
 import 'package:dartz/dartz.dart';
 import 'package:http/http.dart' as http;
 
@@ -10,9 +12,10 @@ class BarberShopRemoteDatasource {
     : _client = client ?? http.Client();
 
   final http.Client _client;
+  final baseUrl = FlavorConfig.instance.baseUrl;
   Future<Either<String, GetBarberShopResponse>> getBarberShop() async {
     try {
-      final uri = Uri.parse('${Config.apiUrlNginrox}/barber/shop');
+      final uri = Uri.parse('$baseUrl/barber/shop');
 
       final response = await _client.get(uri);
 

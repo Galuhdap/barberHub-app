@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Gobar Hub Dev",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main_dev.dart",
+      "args": ["--flavor", "dev"]
+    },
+    {
+      "name": "Gobar Hub Staging",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main_staging.dart",
+      "args": ["--flavor", "staging"]
+    },
+    {
+      "name": "Gobar Hub Prod",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main_prod.dart",
+      "args": ["--flavor", "prod"]
+    }
+  ]
+}
