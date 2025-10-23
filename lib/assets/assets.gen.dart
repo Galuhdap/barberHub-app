@@ -17,21 +17,54 @@ import 'package:vector_graphics/vector_graphics.dart' as _vg;
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
+  /// File path: assets/icons/booking.svg
+  SvgGenImage get booking => const SvgGenImage('assets/icons/booking.svg');
+
+  /// File path: assets/icons/home.svg
+  SvgGenImage get home => const SvgGenImage('assets/icons/home.svg');
+
   /// File path: assets/icons/icons.svg
   SvgGenImage get icons => const SvgGenImage('assets/icons/icons.svg');
 
+  /// File path: assets/icons/map.svg
+  SvgGenImage get map => const SvgGenImage('assets/icons/map.svg');
+
+  /// File path: assets/icons/user.svg
+  SvgGenImage get user => const SvgGenImage('assets/icons/user.svg');
+
   /// List of all assets
-  List<SvgGenImage> get values => [icons];
+  List<SvgGenImage> get values => [booking, home, icons, map, user];
 }
 
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/icon_slider.png
+  AssetGenImage get iconSlider =>
+      const AssetGenImage('assets/images/icon_slider.png');
+
   /// File path: assets/images/login.png
   AssetGenImage get login => const AssetGenImage('assets/images/login.png');
 
+  /// File path: assets/images/photo_profile.png
+  AssetGenImage get photoProfile =>
+      const AssetGenImage('assets/images/photo_profile.png');
+
+  /// File path: assets/images/pict_slider.png
+  AssetGenImage get pictSlider =>
+      const AssetGenImage('assets/images/pict_slider.png');
+
+  /// File path: assets/images/service.png
+  AssetGenImage get service => const AssetGenImage('assets/images/service.png');
+
   /// List of all assets
-  List<AssetGenImage> get values => [login];
+  List<AssetGenImage> get values => [
+    iconSlider,
+    login,
+    photoProfile,
+    pictSlider,
+    service,
+  ];
 }
 
 class Assets {
