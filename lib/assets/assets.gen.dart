@@ -23,17 +23,31 @@ class $AssetsIconsGen {
   /// File path: assets/icons/home.svg
   SvgGenImage get home => const SvgGenImage('assets/icons/home.svg');
 
+  /// File path: assets/icons/icons-2.svg
+  SvgGenImage get icons2 => const SvgGenImage('assets/icons/icons-2.svg');
+
   /// File path: assets/icons/icons.svg
   SvgGenImage get icons => const SvgGenImage('assets/icons/icons.svg');
 
   /// File path: assets/icons/map.svg
   SvgGenImage get map => const SvgGenImage('assets/icons/map.svg');
 
+  /// File path: assets/icons/search.svg
+  SvgGenImage get search => const SvgGenImage('assets/icons/search.svg');
+
   /// File path: assets/icons/user.svg
   SvgGenImage get user => const SvgGenImage('assets/icons/user.svg');
 
   /// List of all assets
-  List<SvgGenImage> get values => [booking, home, icons, map, user];
+  List<SvgGenImage> get values => [
+    booking,
+    home,
+    icons2,
+    icons,
+    map,
+    search,
+    user,
+  ];
 }
 
 class $AssetsImagesGen {
